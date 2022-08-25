@@ -4,16 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="67c8db12-b77d-4390-acb4-c5615b741bfe" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/api/ApiHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/api/ApiResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/influxdb/InfluxClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
-    <list id="69c3235b-5ce8-48b3-a8cf-7c6ab6d7b0b1" name="Changes by mikka" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/api/AbstractRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-    </list>
+    <list default="true" id="67c8db12-b77d-4390-acb4-c5615b741bfe" name="Changes" comment="" />
+    <list id="69c3235b-5ce8-48b3-a8cf-7c6ab6d7b0b1" name="Changes by mikka" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
