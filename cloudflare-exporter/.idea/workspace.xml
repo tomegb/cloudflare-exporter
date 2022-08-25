@@ -4,8 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="67c8db12-b77d-4390-acb4-c5615b741bfe" name="Changes" comment="" />
-    <list id="69c3235b-5ce8-48b3-a8cf-7c6ab6d7b0b1" name="Changes by mikka" comment="" />
+    <list default="true" id="67c8db12-b77d-4390-acb4-c5615b741bfe" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/influxdb/InfluxDBClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/influxdb/InfluxDBConnection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/api/ApiConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/influxdb/InfluxClient.java" beforeDir="false" />
+    </list>
+    <list id="69c3235b-5ce8-48b3-a8cf-7c6ab6d7b0b1" name="Changes by mikka" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/api/CloudflareCollector.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/api/AbstractRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/api/AbstractRequest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,6 +32,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="LineStatusTrackerManager">
+    <file path="$PROJECT_DIR$/pom.xml">
+      <ranges>
+        <range start1="20" end1="21" start2="20" end2="21" changelist="67c8db12-b77d-4390-acb4-c5615b741bfe" />
+        <range start1="22" end1="22" start2="22" end2="41" changelist="69c3235b-5ce8-48b3-a8cf-7c6ab6d7b0b1" />
+      </ranges>
+    </file>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -37,6 +57,7 @@
     "Project.color": "2d545e",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "codeWithMe.voiceChat.enabledByDefault": "false",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
