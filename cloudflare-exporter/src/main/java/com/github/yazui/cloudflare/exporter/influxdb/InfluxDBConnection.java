@@ -1,4 +1,4 @@
-package influxdb;
+package com.github.yazui.cloudflare.exporter.influxdb;
 
 import com.influxdb.client.InfluxDBClientFactory;
 import java.time.Instant;
@@ -8,7 +8,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 import com.influxdb.client.InfluxDBClient;
-import com.influxdb.client.InfluxDBClientFactory;
 import com.influxdb.annotations.Column;
 import com.influxdb.annotations.Measurement;
 import com.influxdb.client.QueryApi;
