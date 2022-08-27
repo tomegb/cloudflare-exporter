@@ -1,4 +1,4 @@
-package com.github.yazui.cloudflare.exporter.api;
+package com.github.yazui.cloudflare.exporter.api.objects;
 
 public abstract class CloudflareComponent {
 

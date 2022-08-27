@@ -8,8 +8,6 @@ public class CloudflareAccess {
   private final String email;
   private final OkHttpClient client;
 
-  public static final String CLOUDFLARE_API_LINK = "https://api.cloudflare.com/client/v4";
-
   public CloudflareAccess(String mail, String apiKey) {
     this.email = mail;
     this.apiKey = apiKey;
