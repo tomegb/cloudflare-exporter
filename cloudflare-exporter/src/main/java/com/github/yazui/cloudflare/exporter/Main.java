@@ -1,6 +1,7 @@
 package com.github.yazui.cloudflare.exporter;
 
 public class Main {
+
     public static void main(String[] args) {
         System.out.println("       _                 _  __ _                                               _            \n" +
                            "      | |               | |/ _| |                                             | |           \n" +
