@@ -1,10 +1,9 @@
 package com.github.yazui.cloudflare.exporter.api.requests;
 
 import com.github.yazui.cloudflare.exporter.api.CloudflareAccess;
-import com.github.yazui.cloudflare.exporter.api.objects.CloudflareComponent;
+import com.github.yazui.cloudflare.exporter.api.objects.AbstractCloudflareComponent;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
-import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
 import java.io.IOException;
@@ -18,7 +17,7 @@ import okhttp3.Response;
 import okhttp3.ResponseBody;
 import org.jetbrains.annotations.NotNull;
 
-public abstract class AbstractRequest<T extends CloudflareComponent> {
+public abstract class AbstractRequest<T extends AbstractCloudflareComponent> {
 
   protected static final Gson GSON = new GsonBuilder().setPrettyPrinting().create();
   protected static final MediaType MEDIA_TYPE = MediaType.parse("text/plain");
@@ -68,14 +67,14 @@ public abstract class AbstractRequest<T extends CloudflareComponent> {
         throw new IllegalStateException("ResponseBody cannot be loaded.");
       }
 
-      errors = GSON.fromJson(responseBodyObject.get("errors"));
-
       JsonObject responseBodyObject = JsonParser.parseString(responseBody.string()).getAsJsonObject();
+      errors = GSON.fromJson(responseBodyObject.get("errors"), CloudflareError[].class);
+
       if (!responseBodyObject.has("success") && !responseBodyObject.get("success").getAsBoolean()) {
         throw new IllegalAccessException();
       }
 
-      if (!responseBodyObject.has("errors") && !responseBodyObject.get("errors").getAsBoolean()) {
+      if (!responseBodyObject.has("errors")) {
         throw new IllegalAccessException();
       }
 
@@ -83,6 +82,7 @@ public abstract class AbstractRequest<T extends CloudflareComponent> {
         throw new IllegalAccessException();
       }
 
+      succeed = responseBodyObject.get("success").getAsBoolean();
       resultArray = GSON.fromJson(responseBodyObject.get("result"), (Type) responseClass);
     }
   }
