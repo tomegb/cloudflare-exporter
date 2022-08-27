@@ -6,6 +6,7 @@ A Cloudflare data exporter for InfluxDB to create a nice Grafana dashboard.
 
 
 #### Add Dashboard in Grafana:
+**coming soon**
 
 #### Need help?
 - Join my [Discord](https://discord.gg/q9JJGjRXvV)
