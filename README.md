@@ -3,9 +3,8 @@ A Cloudflare data exporter for InfluxDB to create a nice Grafana dashboard.
 
 
 #### Deploy Exporter with Docker:
-```
-coming soon
-```
+> coming soon
+
 
 #### Add Dashboard in Grafana:
 Import ID:
