@@ -1,10 +1,10 @@
 package com.github.yazui.cloudflare.exporter.api.objects;
 
-public abstract class CloudflareComponent {
+public abstract class AbstractCloudflareComponent {
 
   private final String id;
 
-  protected CloudflareComponent(String id) {
+  protected AbstractCloudflareComponent(String id) {
     this.id = id;
   }
 
