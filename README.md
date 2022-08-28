@@ -19,7 +19,7 @@ coming soon
 
 #### Languages & Tools:
 [<img align="left" alt="Java" width="26px" src="https://github.com/edent/SuperTinyIcons/blob/master/images/svg/java.svg" />][wikipediajava]
-[<img align="left" alt="Java" width="26px" src="https://www.pngwing.com/en/free-png-tntcx" />][cloudflareapi]
+[<img align="left" alt="Java" width="26px" src="https://cdn.discordapp.com/attachments/1013433809221455902/1013469877740257330/cloudflare.png" />][cloudflareapi]
 [<img align="left" alt="Java" width="26px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/IntelliJ_IDEA_Edu_Icon.svg/2048px-IntelliJ_IDEA_Edu_Icon.svg.png" />][wikipediaintellij]
 
 [wikipediajava]: https://en.wikipedia.org/wiki/Java_(programming_language)
